@@ -1,5 +1,6 @@
 import { Button, Checkbox, Form, Input } from "antd";
 import { GanderForm } from "./components/Ganderform.jsx";
+import {Webadress } from "./components/Webadress.jsx";
 
 const App = () => {
   const [form] = Form.useForm();
@@ -88,6 +89,7 @@ const App = () => {
         }}
       >
         <GanderForm form={form} />
+        <Webadress/>
         <Button type="primary" htmlType="submit">
           Submit
         </Button>
