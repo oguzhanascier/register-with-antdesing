@@ -10,6 +10,7 @@ function GanderForm(props) {
   
       <Form.Item
       form={props.form}
+      initialValue={"Alice is the first person"}
         name="note"
         label="Note"
         rules={[

@@ -19,11 +19,8 @@ const Webadress = () => {
   );
   return (
     <Space direction="vertical">
-      <Form.Item name="mysite" label="my website">
-        <Input
-          addonBefore={selectBefore}
-          addonAfter={selectAfter}
-        />
+      <Form.Item name="mysite" label="my website" initialValue="google">
+        <Input addonBefore={selectBefore} addonAfter={selectAfter} />
       </Form.Item>
     </Space>
   );
