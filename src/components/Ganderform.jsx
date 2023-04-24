@@ -29,6 +29,7 @@ function GanderForm(props) {
         <Select
         form={props.form}
           placeholder="Seç"
+          
         >
           <Option value="male">male</Option>
           <Option value="female">female</Option>

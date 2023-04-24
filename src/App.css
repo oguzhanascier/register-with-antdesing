@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+
+.ant-steps-item-finish .ant-steps-item-icon  {
+  background-color: orange !important;
+}
+
+
+.ant-steps-item-finish .ant-steps-item-icon .ant-steps-finish-icon {
+  color: white !important;
+}
+
+.ant-steps-item-finish.ant-steps-item-icon.ant-steps-icon-dot {
+  background-color: orange!important;
+}
