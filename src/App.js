@@ -3,6 +3,7 @@ import { GanderForm } from "./components/Ganderform.jsx";
 import {Webadress } from "./components/Webadress.jsx";
 import { Message } from "./components/Submitmessage.jsx";
 import { Step } from "./components/Steps.jsx";
+import { BugBox } from "./components/BoxBug.jsx";
 const App = () => {
   const [form] = Form.useForm();
   const onFinish = (values) => {
@@ -116,6 +117,7 @@ form is submitted successfully. */
           Submit
         </Button>
       </Form.Item>
+      <BugBox/>
     </Form>
   );
 };
